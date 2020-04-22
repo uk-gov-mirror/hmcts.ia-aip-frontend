@@ -13,7 +13,7 @@ exports.config = {
     }
   },
   gherkin: {
-    features: './test/e2e-test/setup/reasons_for_appeal_requested.feature',
+    features: './test/e2e-test/setup/reason_for_appeal_submitted.feature',
     steps: ['./test/e2e-test/step_definitions/steps.ts']
   },
   plugins: {
