@@ -46,6 +46,8 @@ function postCheckAndSend(updateAppealService: UpdateAppealService) {
       if (!shouldValidateWhenSaveForLater(req.body)) {
         return getConditionalRedirectUrl(req, res, paths.common.overview + '?saved');
       }
+      req.session.appeal.reasonsForAppeal.uploadDate = Date.now().toString();
+      await updateAppealService.submitEvent(Events.EDIT_REASONS_FOR_APPEAL,req);
       const updatedAppeal = await updateAppealService.submitEvent(Events.SUBMIT_REASONS_FOR_APPEAL, req);
       req.session.appeal.appealStatus = updatedAppeal.state;
       return res.redirect(paths.reasonsForAppealSubmitted.confirmation);

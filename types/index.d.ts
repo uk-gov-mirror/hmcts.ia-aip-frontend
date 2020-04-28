@@ -154,6 +154,7 @@ interface AppealApplication {
 interface ReasonsForAppeal {
   applicationReason: string;
   evidences?: Evidence[];
+  uploadDate?: string;
   isEdit?: boolean;
 }
 
