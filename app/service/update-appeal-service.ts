@@ -327,6 +327,7 @@ export default class UpdateAppealService {
     }
 
     if (appeal.draftClarifyingQuestionsAnswers) caseData.draftClarifyingQuestionsAnswers = [ ...appeal.draftClarifyingQuestionsAnswers ];
+    if (appeal.clarifyingQuestionsAnswers) caseData.clarifyingQuestionsAnswers = [ ...appeal.clarifyingQuestionsAnswers ];
     return caseData;
   }
 

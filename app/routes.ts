@@ -14,6 +14,7 @@ import { setupApplicationOverviewController } from './controllers/application-ov
 import { setupAskForMoreTimeController } from './controllers/ask-for-more-time/ask-for-more-time';
 import { setupClarifyingQuestionPageController } from './controllers/clarifying-questions/question-page';
 import { setupClarifyingQuestionsListController } from './controllers/clarifying-questions/questions-list';
+import { setupSubmitClarifyingQuestionPageController } from './controllers/clarifying-questions/submit-page';
 import { setupDetailViewersController } from './controllers/detail-viewers';
 import { setupEligibilityController } from './controllers/eligibility';
 import { setupFooterController } from './controllers/footer';
@@ -72,6 +73,7 @@ const forbiddenController = setupForbiddenController();
 const askForMoreTime = setupAskForMoreTimeController({ updateAppealService, documentManagementService });
 const clarifyingQuestionsListController = setupClarifyingQuestionsListController(middleware);
 const clarifyingQuestionPageController = setupClarifyingQuestionPageController(middleware, updateAppealService);
+const clarifyingQuestionsSubmitPageController = setupSubmitClarifyingQuestionPageController(updateAppealService);
 
 // not protected by idam
 router.use(indexController);
@@ -104,6 +106,7 @@ router.use(reasonsForAppealController);
 router.use(reasonsForAppealCYAController);
 router.use(clarifyingQuestionsListController);
 router.use(clarifyingQuestionPageController);
+router.use(clarifyingQuestionsSubmitPageController);
 
 router.use(detailViewersController);
 router.use(forbiddenController);

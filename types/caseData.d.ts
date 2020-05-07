@@ -42,6 +42,7 @@ interface CaseData {
   reviewTimeExtensionRequired?: 'Yes' | 'No';
   directions: DirectionCollection[];
   draftClarifyingQuestionsAnswers: ClarifyingQuestion[];
+  clarifyingQuestionsAnswers?: ClarifyingQuestion[];
 }
 
 interface Nationality {

@@ -75,7 +75,8 @@ interface Appeal {
   history?: HistoryEvent[];
   askForMoreTime?: AskForMoreTime;
   previousAskForMoreTime?: TimeExtensionCollection[];
-  draftClarifyingQuestionsAnswers?: ClarifyingQuestion[]
+  draftClarifyingQuestionsAnswers?: ClarifyingQuestion[];
+  clarifyingQuestionsAnswers?: ClarifyingQuestion[];
 }
 
 interface AskForMoreTime {
