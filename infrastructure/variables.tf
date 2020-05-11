@@ -22,3 +22,7 @@ variable "subscription" {
 variable "common_tags" {
   type = "map"
 }
+
+variable "enable_ase" {
+  default = false
+}
