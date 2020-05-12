@@ -185,6 +185,9 @@ interface IdamDetails {
 interface ClarifyingQuestion {
   id: string;
   value: {
+    dateSent?: string;
+    dateResponded?: string;
+    dueDate?: string;
     question: string;
     answer?: string;
   }
