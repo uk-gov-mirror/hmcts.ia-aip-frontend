@@ -38,7 +38,6 @@ withPipeline("nodejs", product, component) {
     after('build') {sh 'yarn build'}
 
     loadVaultSecrets(secrets)
-    installCharts()
     enableAksStagingDeployment()
     disableLegacyDeployment()
 
