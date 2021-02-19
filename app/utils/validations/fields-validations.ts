@@ -77,12 +77,23 @@ function dropdownValidation(text: string, theKey: string): ValidationErrors | nu
 
 function homeOfficeNumberValidation(obj: object) {
   const schema = Joi.object({
-    homeOfficeRefNumber: Joi.string().required().regex(/^[A-Za-z][0-9]{6}[0-9]?(|\/[0-9][0-9]?[0-9]?)$/).messages({
+    // homeOfficeRefNumber: Joi.string().required().regex(/^[A-Za-z][0-9]{6}[0-9]?(|\/[0-9][0-9]?[0-9]?)$/).messages({
+    homeOfficeRefNumber: Joi.string().required().regex(/^(([0-9]{4}\-[0-9]{4}\-[0-9]{4}\-[0-9]{4})|([0-9]{1,9}))$/).messages({
       'string.empty': i18n.validationErrors.homeOfficeReference.required,
       'string.pattern.base': i18n.validationErrors.homeOfficeReference.invalid
     })
   }).unknown();
   return validate(obj, schema);
+
+  // if the length  < 9
+  // check it is number and zer pad if necessary to make it a 9 digit
+  // Eg: 123456 -> 000123456
+
+  // if it is > 9 in length
+  // then it has to be a UAN
+
+  // 021009141  - CID
+  // 1212-0099-0089-1080 - UAN
 }
 
 function dateLetterSentValidation(obj: object): boolean | ValidationErrors {
