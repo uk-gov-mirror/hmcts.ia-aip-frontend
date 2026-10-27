@@ -39,6 +39,7 @@
   "10096_Timestamp Disclosure - Unix_https://immigration-appeal.aat.platform.hmcts.net/eligibility_POST": "ignore",
   "10096_Timestamp Disclosure - Unix_https://immigration-appeal.aat.platform.hmcts.net/main.css_GET": "ignore",
   "10096_Timestamp Disclosure - Unix_https://immigration-appeal.aat.platform.hmcts.net/robots.txt_GET": "ignore",
+  "10096_Timestamp Disclosure - Unix_https://immigration-appeal.aat.platform.hmcts.net/sitemap.xml_GET": "ignore",
   "10096_Timestamp Disclosure - Unix_https://immigration-appeal.aat.platform.hmcts.net/start-appeal_GET": "ignore",
   "10104_User Agent Fuzzer_https://immigration-appeal.aat.platform.hmcts.net/_GET": "ignore",
   "10104_User Agent Fuzzer_https://immigration-appeal.aat.platform.hmcts.net/accessibility-statement_GET": "ignore",
@@ -57,6 +58,7 @@
   "10112_Session Management Response Identified_https://immigration-appeal.aat.platform.hmcts.net/cookie-policy_GET": "ignore",
   "10112_Session Management Response Identified_https://immigration-appeal.aat.platform.hmcts.net/create-new-appeal_POST": "ignore",
   "10112_Session Management Response Identified_https://immigration-appeal.aat.platform.hmcts.net/eligibility_GET": "ignore",
+  "10112_Session Management Response Identified_https://immigration-appeal.aat.platform.hmcts.net/eligibility_POST": "ignore",
   "10112_Session Management Response Identified_https://immigration-appeal.aat.platform.hmcts.net/privacy-policy_GET": "ignore",
   "10112_Session Management Response Identified_https://immigration-appeal.aat.platform.hmcts.net/robots.txt_GET": "ignore",
   "10112_Session Management Response Identified_https://immigration-appeal.aat.platform.hmcts.net/sitemap.xml_GET": "ignore",
@@ -100,6 +102,7 @@
   "90027_Cookie Slack Detector_https://immigration-appeal.aat.platform.hmcts.net/_GET": "ignore",
   "90027_Cookie Slack Detector_https://immigration-appeal.aat.platform.hmcts.net/all.js_GET": "ignore",
   "90027_Cookie Slack Detector_https://immigration-appeal.aat.platform.hmcts.net/assets_GET": "ignore",
+  "90027_Cookie Slack Detector_https://immigration-appeal.aat.platform.hmcts.net/create-new-appeal_POST": "ignore",
   "90027_Cookie Slack Detector_https://immigration-appeal.aat.platform.hmcts.net/eligibility_POST": "ignore",
   "90027_Cookie Slack Detector_https://immigration-appeal.aat.platform.hmcts.net_GET": "ignore"
 }
