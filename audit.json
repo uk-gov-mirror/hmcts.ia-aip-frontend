@@ -30,5 +30,5 @@
   "10112_Session Management Response Identified_https://immigration-appeal.aat.platform.hmcts.net/start-appeal_GET": "ignore",
   "10104_User Agent Fuzzer_https://immigration-appeal.aat.platform.hmcts.net_GET": "ignore",
   "10104_User Agent Fuzzer_https://immigration-appeal.aat.platform.hmcts.net/_GET": "ignore",
-  "10104_User Agent Fuzzer_https://immigration-appeal.aat.platform.hmcts.net/eligibility_POST": "ignore",
+  "10104_User Agent Fuzzer_https://immigration-appeal.aat.platform.hmcts.net/eligibility_POST": "ignore"
 }
