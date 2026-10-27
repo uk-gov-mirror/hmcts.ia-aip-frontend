@@ -12,6 +12,7 @@
   "10023_Information Disclosure - Debug Error Messages_https://immigration-appeal.aat.platform.hmcts.net/eligibility_POST": "ignore",
   "10035_Strict-Transport-Security Header Not Set_https://immigration-appeal.aat.platform.hmcts.net/ruxitagentjs_ICA7NQVfhqrux_10347260902154543.js_GET": "ignore",
   "10049_Non-Storable Content_https://immigration-appeal.aat.platform.hmcts.net/_GET": "ignore",
+  "10049_Non-Storable Content_https://immigration-appeal.aat.platform.hmcts.net/assets/images/favicon.ico_GET": "ignore",
   "10049_Non-Storable Content_https://immigration-appeal.aat.platform.hmcts.net/robots.txt_GET": "ignore",
   "10049_Non-Storable Content_https://immigration-appeal.aat.platform.hmcts.net/sitemap.xml_GET": "ignore",
   "10049_Non-Storable Content_https://immigration-appeal.aat.platform.hmcts.net/start-appeal_GET": "ignore",
