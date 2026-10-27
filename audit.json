@@ -45,6 +45,7 @@
   "10096_Timestamp Disclosure - Unix_https://immigration-appeal.aat.platform.hmcts.net/robots.txt_GET": "ignore",
   "10096_Timestamp Disclosure - Unix_https://immigration-appeal.aat.platform.hmcts.net/sitemap.xml_GET": "ignore",
   "10096_Timestamp Disclosure - Unix_https://immigration-appeal.aat.platform.hmcts.net/start-appeal_GET": "ignore",
+  "10096_Timestamp Disclosure - Unix_https://immigration-appeal.aat.platform.hmcts.net/terms-and-conditions_GET": "ignore",
   "10096_Timestamp Disclosure - Unix_https://immigration-appeal.aat.platform.hmcts.net_GET": "ignore",
   "10104_User Agent Fuzzer_https://immigration-appeal.aat.platform.hmcts.net/_GET": "ignore",
   "10104_User Agent Fuzzer_https://immigration-appeal.aat.platform.hmcts.net/accessibility-statement_GET": "ignore",
